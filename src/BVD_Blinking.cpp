@@ -21,6 +21,11 @@ void BVD_Blink_Morse(char x)
 		case 'A':
 		{
 			BVD_Blink(250);
+			delay(250);
+			BVD_Blink(1000);
+			delay(250);
+			break;
+			
 		}
 	}
 }
